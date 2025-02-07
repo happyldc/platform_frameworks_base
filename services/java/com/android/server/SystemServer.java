@@ -646,7 +646,9 @@ public final class SystemServer implements Dumpable {
     public static void main(String[] args) {
         new SystemServer().run();
     }
-
+    /**
+     * 构造函数
+     */
     public SystemServer() {
         // Check for factory test mode.
         mFactoryTestMode = FactoryTest.getMode();
